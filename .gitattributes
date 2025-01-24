@@ -1,3 +1,6 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 .mp4 filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> fac75aa90445425002f319efcaa9e944806f4538

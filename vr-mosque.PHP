@@ -23,7 +23,11 @@
             <img id="0-front-mosque" src="assets/vr/0_front_mosque.jpg">
             <img id="1-front-mosque" src="assets/vr/1_front_mosque.jpg">
             <img id="2-front-mosque" src="assets/vr/2_front_mosque.jpg">
+<<<<<<< HEAD
             <img id="center-mosque" src="assets/vr/center_mosque.png">
+=======
+            <video id="center-mosque" src="assets/vr/center_mosque.mp4" autoplay loop crossorigin="anonymous" playsinline></video>
+>>>>>>> fac75aa90445425002f319efcaa9e944806f4538
             <img id="left-mosque" src="assets/vr/left_mosque.jpg">
             <!--Infographics Assets-->
             <img id="outside-mosque1" src="assets/vr/infographics/outside-mosque1.png">
