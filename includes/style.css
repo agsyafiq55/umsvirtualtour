@@ -29,9 +29,8 @@ h1 {
 .overlay h1 {
     font-family: 'Poppins', sans-serif; /* Font specifically for h1 */
     color: white;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     text-align: center;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
     animation: pulse 2s infinite;
 }
 
@@ -141,9 +140,6 @@ p {
     margin: 4rem auto;
     padding: 2rem;
     text-align: center;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transform: translateY(0);
     transition: transform 0.5s ease;
 }
@@ -160,7 +156,8 @@ p {
     justify-content: space-between; /* Ensures spacing between left and right */
     max-width: 1200px; /* Restricts the total width */
     margin: 4rem auto; /* Centers the section */
-    padding: 0 2rem; /* Adds padding on the sides */
+    padding: 2rem; /* Adds padding on the sides */
+    border-top: 1px solid #e6e6e6; /* Subtle border for separation */
 }
 
 .left-content,
