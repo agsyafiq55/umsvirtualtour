@@ -6,7 +6,7 @@
     <title>Info AR Mosque</title>
     <link rel="stylesheet" href="includes/style.css">
     <style>
-        /* Inline styles for simplicity (can be moved to style.css) */
+        /* Base Styles */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -15,30 +15,71 @@
             color: #333;
             text-align: center;
         }
-
+    
         .container {
             max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem 2rem;
-            background-color: white;
+            margin: 3rem auto; /* Slightly increased spacing */
+            padding: 2rem; /* Increased padding */
+            background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
-
-
+    
+        p {
+            text-align: justify; /* Justify only paragraphs */
+            margin-bottom: 1.5rem; /* Add spacing between paragraphs */
+            line-height: 1.6; /* Improve readability */
+        }
+    
+        li {
+            font-size: 0.95rem; /* Slightly smaller text */
+            margin: 0.5rem 1rem; /* Indent left and right */
+            line-height: 1.4; /* Ensure proper line spacing */
+            text-align: justify; /* Justify list items */
+        }
+    
+        ul, ol {
+            margin: 0 2rem; /* Add more indentation for the entire list */
+            padding: 0;
+        }
+    
         img {
             max-width: 100%;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            margin: 1.5rem 0;
+            margin: 2rem 0; /* Slightly increased margin */
         }
-
+    
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem; /* Adjusted padding for smaller screens */
+                margin: 2rem 1rem; /* Reduce horizontal margin */
+            }
+    
+            body {
+                font-size: 1rem; /* Adjust font size for readability on smaller devices */
+            }
+    
+            p {
+                margin-bottom: 1.2rem; /* Slightly reduced paragraph spacing */
+            }
+    
+            li {
+                font-size: 0.9rem; /* Slightly smaller font for mobile */
+                margin: 0.5rem 0.8rem; /* Adjusted indentation for smaller screens */
+            }
+    
+            img {
+                margin: 1.5rem 0; /* Slightly reduced margin for smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>How to Use AR Mosque</h1>
+        <h1>How to Use</h1>
         <p>
             To experience the AR Mosque, you will need to use a <strong>Hiro Marker</strong> to display the 3D model of the UMS Mosque. Follow the instructions below carefully to enjoy the AR experience.
         </p>
@@ -55,7 +96,7 @@
             <li>Once the Hiro Marker is scanned, the 3D model of the UMS Mosque will appear on your screen!</li>
         </ol>
         <img src="assets/hiro.png" alt="Hiro Marker" />
-        <p>
+        <p style="text-align: center;">
             Click the button below when you're ready to start the AR Mosque experience.
         </p>
         <a href="ar-mosque.html" class="btn">Proceed to AR Mosque</a>

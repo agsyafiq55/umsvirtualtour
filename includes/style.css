@@ -137,7 +137,7 @@ p {
 
 .content-section {
     max-width: 800px;
-    margin: 4rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     text-align: center;
     transform: translateY(0);
@@ -155,7 +155,7 @@ p {
     align-items: center; /* Vertically aligns items */
     justify-content: space-between; /* Ensures spacing between left and right */
     max-width: 1200px; /* Restricts the total width */
-    margin: 4rem auto; /* Centers the section */
+    margin: 2rem auto; /* Centers the section */
     padding: 2rem; /* Adds padding on the sides */
     border-top: 1px solid #e6e6e6; /* Subtle border for separation */
 }
@@ -191,7 +191,7 @@ p {
 
     .left-content,
     .right-content {
-        text-align: center; /* Centers text and content for better aesthetics */
+        text-align: left; /* Centers text and content for better aesthetics */
     }
 }
 
