@@ -18,6 +18,14 @@ body {
     color: #333;
 }
 
+h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: 600; /* Add emphasis with bold font weight */
+    line-height: 1.2; /* Improve readability */
+    color: #222; /* Ensure consistent color */
+    margin: 1rem 0; /* Add spacing around */
+}
+
 .overlay h1 {
     font-family: 'Poppins', sans-serif; /* Font specifically for h1 */
     color: white;
@@ -110,6 +118,24 @@ p {
     transform: translateY(-3px);
 }
 
+.email-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: var(--blue);
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.email-link:hover {
+    background-color: #497db4;
+    transform: translateY(-3px);
+}
+
 .content-section {
     max-width: 800px;
     margin: 4rem auto;
@@ -120,6 +146,10 @@ p {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transform: translateY(0);
     transition: transform 0.5s ease;
+}
+
+.content-section p {
+    text-align: justify;
 }
 
 .split-section {
@@ -167,3 +197,47 @@ p {
         text-align: center; /* Centers text and content for better aesthetics */
     }
 }
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa; /* Light background for a clean look */
+    color: #333; /* Neutral text color */
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 1px solid #e6e6e6; /* Subtle border for separation */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bio Section */
+.bio h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222; /* Slightly darker color for name */
+}
+
+.bio p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Neutral gray for text */
+    margin: 0.5rem 0;
+    padding-bottom: 10px;
+}
+
